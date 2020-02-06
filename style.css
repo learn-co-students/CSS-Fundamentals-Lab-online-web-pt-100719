@@ -3,3 +3,28 @@ body {
   height: 100%;
   margin: 0;
 }
+
+* {
+  text-align: center
+}
+  
+nav a {
+  background-color: grey;
+  padding: 10px
+}
+
+section[id="details"] div {
+  display: block;
+  float: left;
+  width: 25%;
+  background-color: red
+}
+
+section[id="featured-property"] p {
+  width: 800px;
+  text-align: center
+}
+
+section figcaption {
+  font-size: 10px
+}
